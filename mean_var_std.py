@@ -2,11 +2,11 @@ import numpy as np
 
 def calculate(list):
 
-    if len(input_list) != 9:
+    if len(list) != 9:
         raise ValueError("List must contain nine numbers.")
     
     
-    matrix = np.array(input_list).reshape(3, 3)
+    matrix = np.array(list).reshape(3, 3)
     
 
     calculations = {
