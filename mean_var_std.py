@@ -6,4 +6,3 @@ def calculate(list):
 
 
     return calculations
-   
